@@ -13,7 +13,7 @@ if (!empty($email) && !empty($pesan)) {
         $header = "From: $email";
 
         if (mail($penerima, $subjek, $body, $header)) {
-            echo "Pesan Kamu berhasil dikirim.";
+            echo "Pesan Kamu berhasil dikirim..";
         } else {
             echo "Maaf, Pesanmu gagal dikirim.";
         }
