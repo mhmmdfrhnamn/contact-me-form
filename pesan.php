@@ -22,6 +22,6 @@
             echo "Masukkan email yang valid";
         }
     }else {
-        echo "Email dan pesan harus diisi";
+        echo "Email dan pesan harus diisii";
     }
 ?>
